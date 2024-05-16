@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@800&family=Merriweather+Sans:wght@800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:wght@500&display=swap');
+body {
+    background-color: #ecffcf;
+    font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: 0px;
+  padding: 0px;
+  height: 7000px;
+}
+.head {
+    width: 100%;
+    height: 90px;
+    background: white;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+}
+
+.mhead{
+    margin: 0 auto;
+    width: 90%;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: flex-end;
+    align-items: center;
+}
+.mhead-img{
+    width: 40%;
+}
+img{
+    width: 100%;
+    box-sizing: content-box;
+}
+.rhead{
+    width: 59%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.rhead-text{
+    width: 20%;
+}
+.voiti {
+    border: hidden;
+    background-color: orange;
+    margin: 0px;
+    height: 40px;
+    width: 70px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+.txt {
+    border: hidden;
+    width: 60%;
+    background-color: #fafafa;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 180px 0px 0px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.txts {
+    border: hidden;
+    width: 90%;
+    background-color: #fafafa;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.img1 {
+    border: hidden;
+    width: 80%;
+    border-radius: 30px;
+    margin: 7px;
+    box-sizing: content-box;
+    border-radius: 24px;
+}
+.bvi {
+    font-size: 45px;
+}
+.ts1 {
+    font-size: 25px;
+}
+.ts2 {
+    font-size: 35px;
+}
+.ocg {
+    margin: 10px 0px;
+}
+.rec {
+    width: 604px;
+    height: 138px;
+    box-sizing: content-box;
+    border-radius: 24px;
+}
+.help {
+    position: fixed;
+    top: 170px;
+    right: 70px;
+    border: hidden;
+    width: 420px;
+    background-color: white;
+    height: 390px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.ul {
+    color: #4a9688;
+}
+ul {
+    margin: 5px;
+}
+li {
+    margin: 5px;
+}
